@@ -1,0 +1,103 @@
+
+body {
+	background-color:  rgb(240, 240, 240); 
+	color: rgb(40, 40, 40);
+	font-family: Times New Roman;
+	font-size:  20px;
+}
+h1, h2, h3 {
+font-family:  sans-serif;
+}
+h1 {
+	color:  black;
+	font-size:  36px;
+}
+h2{
+	color:  rgb(120, 120, 120);
+	font-size:  24px;
+	font-weight:  lighter;
+}
+
+a{
+	text-decoration:  none;
+	color: rebeccapurple;
+}
+a:hover {
+	color: black;
+}
+
+
+
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto 
+}
+.card-white {
+	background-color:  white;
+	padding:  40px;
+	box-shadow:  0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:  4px;
+	margin:  20px 0px;
+	text-align:  center;
+	}
+.img-circle {
+	border-radius:  50%;
+}
+.btn-blue {
+	background-color:  rebeccapurple;
+	color:  white;
+	padding:  15px 20px;
+	border-radius:  4px;
+}
+.btn-blue:  hover{
+	background-color:  rebeccapurple;
+	color: whitesmoke;
+}
+.list-inline {
+	list-style:  none;
+	padding-left:  0px;
+}
+
+.list-inline li {
+	display:  inline;
+	padding:  10px;
+}
+
+.list-inline i {
+	font-size:  50px;
+	color:  rgb(240, 240, 240);
+}
+
+.list-inline i: hover {
+	color:  black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+.list-inline i {
+	color:  rebeccapurple;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
